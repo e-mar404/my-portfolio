@@ -4,10 +4,11 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
     background: #F2E9DC;
-    position: fixed:
-    top: 0;
+    position: fixed;
+    top: 0px;
+    left: 0px;
     height: 85px;
-    dsiplay: block;
+    width: 100%;
     justify-content: space-between;
     overflow: hidden;
     z-index: 12;
