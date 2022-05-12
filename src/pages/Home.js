@@ -8,6 +8,7 @@ const Home = () => {
                 justifyContent: 'Center',
                 alignItems: 'Center',
                 alignContent: 'Center',
+                overflow: 'hidden',
                 height: '100vh',
                 color: '#F2E9DC',
                 background: '#181513'

@@ -4,10 +4,12 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
     background: #F2E9DC;
+    position: fixed:
+    top: 0;
     height: 85px;
-    dsiplay: flex;
+    dsiplay: block;
     justify-content: space-between;
-    padding: 0.2rem;
+    overflow: hidden;
     z-index: 12;
 `;
 
@@ -30,8 +32,8 @@ export const Bars = styled(FaBars)`
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 25px;
+        left: 10px;
         transform: translate(-100%, 75 %);
         font-size: 1.8rem;
         cursor: pointer;

@@ -5,17 +5,15 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      {/*
-      NavBar for later implementation
+    <div className="App">      
+      
       <BrowserRouter>
-        <Navbar />
+        <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>} />
         </Routes>
       </BrowserRouter>
-      */}
+      
     </div>
   );
 }

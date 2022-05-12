@@ -4,23 +4,20 @@ import {
   NavLink,
   Bars,
   NavMenu,
+  /*
   NavBtn,
   NavBtnLink,
+  */
 } from './NavbarElements.js';
   
 const NavBar = () => {
   return (
-    <>
-      <Nav>
-        <Bars />
-  
-        <NavMenu>
-            <NavLink to='/'>
-                Home
-            </NavLink>
-        </NavMenu>
-      </Nav>
-    </>
+    <Nav>
+      <Bars />
+      <NavMenu>
+          <NavLink to='/'>Home</NavLink>
+      </NavMenu>
+    </Nav>
   );
 };
   
