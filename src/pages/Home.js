@@ -1,21 +1,11 @@
 import React from "react";
+import "./Home.css";
 
 const Home = () => {
     return (
-        <div
-            style = {{
-                display: 'flex',
-                justifyContent: 'Center',
-                alignItems: 'Center',
-                alignContent: 'Center',
-                overflow: 'hidden',
-                height: '200vh',
-                width: '100%',
-                color: '#F2E9DC',
-                background: '#181513'
-            }}
-        >
-            <h1>Webpage Coming soon</h1>
+        <div className="intro">
+            <h1 className="intro-name">Emilio Marin</h1>
+            <p className="intro-description">I am a student at UH</p>
         </div>
     );
 };

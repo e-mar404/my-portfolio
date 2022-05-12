@@ -15,7 +15,9 @@ const NavBar = () => {
     <Nav>
       <Bars />
       <NavMenu>
-          <NavLink to='/'>Home</NavLink>
+          <NavLink to='/my-portfolio'>
+            Home
+          </NavLink>
       </NavMenu>
     </Nav>
   );
