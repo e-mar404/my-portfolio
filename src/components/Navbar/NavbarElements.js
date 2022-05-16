@@ -7,6 +7,8 @@ export const Nav = styled.nav`
     position: fixed;
     top: 0px;
     left: 0px;
+    border-radius: 20px;
+    opacity: 0.95;
     height: 85px;
     width: 100%;
     justify-content: space-between;
@@ -16,6 +18,7 @@ export const Nav = styled.nav`
 
 export const NavLink = styled(Link)`
     color: #477890;
+    opacity: 1.0;
     text-decoration: none;
     display: flex;
     align-items: center;
