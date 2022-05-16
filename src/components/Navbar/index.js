@@ -18,6 +18,9 @@ const NavBar = () => {
           <NavLink to='/my-portfolio'>
             Home
           </NavLink>
+          <NavLink to='/about'>
+            About
+          </NavLink>
       </NavMenu>
     </Nav>
   );
