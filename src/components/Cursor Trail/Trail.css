@@ -1,0 +1,34 @@
+.Trail{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: whitesmoke;
+    border-radius: 100%; 
+    animation-name: fade-away;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.Text{
+    position: absolute;
+    left: 50vw;
+    top: 80vh;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    animation: intermitent 2s linear infinite both;
+}
+
+@keyframes fade-away {
+    from {opacity: 1;}
+    to {opacity: 0; transform: scale(0);}
+}
+
+@keyframes intermitent {
+    0% {opacity: .3;}
+    50% {opacity: .1;}
+    100% {opacity: .3;}
+}
