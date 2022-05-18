@@ -1,23 +1,55 @@
-.intro{
-    display: inline-flexbox;
+
+.intro-background{
+    display: flex;
     overflow-x: hidden;
     height: 100vh;
     width: 100vw;
-    color: #F2E9DC;
-    background: #181513;
+    color: #000000;
+    background: #FFFEED;
+    z-index: 0;
+    cursor: default;
+}
+
+
+.intro-container{
+    position: absolute;
+    bottom: 0;
+    width: 50vw;
+    padding-bottom: 5rem;
+    z-index: 2;
 }
 
 .intro-name{
-    padding-top: 8rem;
     padding-left: 3rem;
+    margin-top: 2vh;
+    font-size: 400%;
     margin-bottom: 10px;
-    width: 50vw;
-    height: 2rem;
+    width: 25rem;
+    height: 5rem;
 }
 
 .intro-description{
     padding-left: 3rem;
     margin-top: 0%;
-    width: 50vw;
-    height: 2rem;
+    margin-bottom: 10px;
+    width: 90vw;
+    font-size: 200%;
+}
+
+/* make highlight */
+mark{
+    background-color: #C4C4C4;
+    color:#000000;
+    z-index: 1;
+}
+
+mark:hover{
+    background-color: #b4b3ff;
+    cursor: pointer;
+}
+
+/* Remove link styling */
+.links{
+    text-decoration: none;
+    color: black;
 }
