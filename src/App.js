@@ -9,6 +9,9 @@ function App() {
   return (
     <div className="App">      
       
+      {/*
+      Routs for Navbar, changes URL
+
       <BrowserRouter>
         <Navbar/>
         <Routes>
@@ -19,6 +22,17 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Trail />
+      */}
+
+      {/* New routers that let me use the text as buttons, nav bar wont be used anymore */}
+      <BrowserRouter>
+        <Routes>
+          <Route path='/my-portfolio' element={<Home />} />
+        </Routes>
+        <Routes>
+          <Route path='/about' element={<About />}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
