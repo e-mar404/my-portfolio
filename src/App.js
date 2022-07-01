@@ -1,36 +1,22 @@
 import './App.css';
-import Navbar from './components/Navbar';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
-import About from './pages/About';
-import Trail from './components/Cursor Trail';
+import CompSci from './pages/CompSci';
+import RelatedWork from './pages/RelatedWork';
 
 function App() {
   return (
     <div className="App">      
-      
-      {/*
-      Routs for Navbar, changes URL
-
-      <BrowserRouter>
-        <Navbar/>
-        <Routes>
-          <Route path='/my-portfolio' element={<Home/>} />
-        </Routes>
-        <Routes>
-          <Route path='/about' element={<About/>} />
-        </Routes>
-      </BrowserRouter>
-      <Trail />
-      */}
-
-      {/* New routers that let me use the text as buttons, nav bar wont be used anymore */}
+      {/* set the url to link to different elements */}
       <BrowserRouter>
         <Routes>
           <Route path='/my-portfolio' element={<Home />} />
         </Routes>
         <Routes>
-          <Route path='/about' element={<About />}/>
+          <Route path='/compsci' element={<CompSci />} />
+        </Routes>
+        <Routes>
+          <Route path='/related-work' element={<RelatedWork />} />
         </Routes>
       </BrowserRouter>
     </div>

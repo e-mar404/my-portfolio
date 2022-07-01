@@ -20,20 +20,34 @@
 }
 
 .intro-name{
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 3rem;
     margin-top: 2vh;
-    font-size: 400%;
+    font-size: clamp(50px, 5vw, 70px);
     margin-bottom: 10px;
-    width: 25rem;
+    width: 80%;
     height: 5rem;
 }
 
 .intro-description{
     padding-left: 3rem;
-    margin-top: 0%;
+    margin-top: 10px;
     margin-bottom: 10px;
     width: 90vw;
     font-size: 200%;
+}
+
+/* Changes style based on screen width*/
+@media only screen and (max-width: 870px){
+    .intro-name {
+        height: 7rem;
+        padding-left: 1.5rem;
+    }
+    
+    .intro-description {
+        padding-left: 1.5rem;
+    }
 }
 
 /* make highlight */

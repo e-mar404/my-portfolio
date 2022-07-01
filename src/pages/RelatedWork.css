@@ -1,6 +1,12 @@
-.wrok-container{
+.work-container{
     height: 100vh;
     width: 100vw;
+    display: flex;
+    overflow-x: hidden;
+    color: #000000;
+    background: #FFFEED;
+    z-index: 0;
+    cursor: default;
 }
 
 .work-text{
