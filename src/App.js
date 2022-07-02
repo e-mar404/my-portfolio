@@ -10,7 +10,7 @@ function App() {
       {/* set the url to link to different elements */}
       <BrowserRouter>
         <Routes>
-          <Route path='/my-portfolio' element={<Home />} />
+          <Route path='/' element={<Home />} />
         </Routes>
         <Routes>
           <Route path='/compsci' element={<CompSci />} />
